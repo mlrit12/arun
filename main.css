@@ -19,7 +19,7 @@ body {
     z-index: -1;
 }
 .social-media a{
-    padding: bottom 0px;;
+    padding: bottom 20px;;
     display: inline-flex;
     justify-content: center;
     text-decoration: none;
@@ -91,7 +91,7 @@ nav img{
     width:90%;
     color:aquamarine;
     position: absolute;
-    top:280%;
+    top:350%;
     left:50%;
     transform:translate(-50%,-50%);
     text-align: center;
@@ -104,6 +104,9 @@ nav img{
     font-size: 18px;
     color:white;
     text-align: center;
+}
+.text-box p.quote{
+    color: aquamarine;
 }
 .hero-btn{
     display:inline-block;
@@ -164,4 +167,33 @@ nav.fa{
     align-items: center;
     border-radius: 2rem;
     min-height: 100vh;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 400px;
+    background: var(--second-bg-color);
+}
+.footer-text p{
+    font-size: 1.6rem;
+}
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+.footer-iconTop a:hover{
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
 }

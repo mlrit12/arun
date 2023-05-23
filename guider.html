@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head  >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIDER WEBSITE</title>
+    <link rel="icon" href="logo.jpg" type="image/x-icon" >
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+</head>
+<body >
+    <div class="hero">
+        <video autoplay loop muted plays-inline class ="back">
+            <source src="preview.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section class="image">
+        <nav>
+          <!--<a href="guider.html"><img src="LOGOP.jpg"></a>-->
+           <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="guider.html">HOME</a> </li>
+                <li> <a href="about.html" target="_blank">ABOUT</a> </li>
+                <li> <a href="course.html" target="_blank">BTECH COURSE</a> </li>
+                <li> <a href="register.html" target="_blank">REGISTER</a> </li>
+                <li> <a href="contact.html" target="_blank">CONTACT US</a> </li>
+                 <li> <a href="mlrit.ac.in" target="_blank">COLLABARATE</a> </li>
+            </ul>
+           </div>
+          <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>GUIDER FOR STUDENTS</h1>
+    <p>
+        <b>THIS SITE IS DESIGNED TO HELP BTECH CSE UNDER GRADUATES.<br>WE PROVIDE STRUCTURED WAY TO LEARN ALL THE REQUIRED SKILLS IN GRADUATION TO CRACK THE DREAM JOB.<br>WE GUIDE FROM FRESHMAN ENGINEER TO THE END OF GRADUATION.</b>
+    </p>
+    <p class="quote">
+     <b>if success()==True</b>
+        <br>
+            <b>celebrate()</b>
+        <br>
+     <b>while success()==False</b>
+        <br>
+            <b>try_again()</b>
+        <br>
+           <b>be_awesome()</b>
+    </p>
+    <p>
+        <b>“Hold on to your dreams of a better life and stay committed to striving to realize it.”
+    </p>
+    <a href="#" class="hero-btn">FOLLOW US ON</a>
+    <div class="social-media">
+        <a href="" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.linkedin.com/in/gmr-b77bb1221/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/madhukargadde/" target="_blank"><i class='bx bxl-instagram'></i></a>
+    </div>
+
+</div>        
+    </section>
+  
+
+<!--<section class="video">
+    <video controls width="800px"  loop style="border:solid">  
+        <source src="video.mp4" type="video/mp4" >  
+        Your browser does not support the html video tag.  
+      </video>
+</section>-->
+   <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
